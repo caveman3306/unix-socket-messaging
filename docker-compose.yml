@@ -1,0 +1,10 @@
+
+services:
+  php:
+    container_name: unix-socket-messaging-php
+    build:
+      context: .
+      dockerfile: .docker/php/Dockerfile
+    volumes:
+      - .:/var/www/
+    tty: true

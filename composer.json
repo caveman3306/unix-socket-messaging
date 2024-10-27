@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php": "^8.2",
+        "ext-sockets": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sources\\": "src/"
+        }
+    }
+}
